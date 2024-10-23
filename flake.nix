@@ -20,16 +20,20 @@
           packages = with pkgs; [
             go
             gopls
-            templ
-            self.packages.${system}.confusedblog
+            gotools
+            # golangci-lint
 
+            templ
+            just
+            self.packages.${system}.confusedblog
           ];
         };
         packages = {
           confusedblog = pkgs.buildGoModule {
             name = "confusedblog";
             src = ./.;
-            vendorHash = null;
+            vendorHash = "sha256-thS9n35sbBhwlpbTkDicmMR2kc6wDMu7ALP4crJFWNA=";
+            # subPackages = [ "cmd" ];
           };
         };
         defaultPackage = self.packages.${system}.confusedblog;
