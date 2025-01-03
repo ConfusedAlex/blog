@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>confusedalex - linux</title>
+    <link rel="self" type="application/atom+xml" href="https://confusedalex.dev/tags/linux/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://confusedalex.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-02T00:00:00+00:00</updated>
+    <id>https://confusedalex.dev/tags/linux/atom.xml</id>
+    <entry xml:lang="en">
+        <title>How I broke sudo on my Dads Mac and how I fixed it</title>
+        <published>2024-01-19T00:00:00+00:00</published>
+        <updated>2024-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              confusedalex
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://confusedalex.dev/blog/how-i-broke-sudo-macos/"/>
+        <id>https://confusedalex.dev/blog/how-i-broke-sudo-macos/</id>
+        
+        <content type="html" xml:base="https://confusedalex.dev/blog/how-i-broke-sudo-macos/">&lt;p&gt;Currently, I’m in the process of migrating my Steam Deck to NixOS. Today finally arrived my 1 TB NVMe, so I rushed to installing it and reinstalling NixOS as I already had a working configuration. The annoying part is, that, when using &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Jovian-Experiments&#x2F;Jovian-NixOS&quot;&gt;Jovian-NixOS&lt;&#x2F;a&gt; you need to compile the kernel. As this takes long and my father owns a M1 Mac, I thought about building my NixOS configuration on the mac and copying it to the Steam Deck.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;&#x2F;h2&gt;
+&lt;p&gt;I then installed Nix on the Mac and got everything working, but as I wanted to build my NixOS Configuration on the Mac, the build failed. It failed, because I couldn’t enter the sudo password. After much browsing the web, I wanted to make sudo passwordless. So I open &lt;code&gt;visudo&lt;&#x2F;code&gt; and changed&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;%admin ALL=(ALL&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;ALL
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;to&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;%admin ALL=(ALL&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;:NOPASSWD ALL
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Do you see the mistake? It’s the wrong place column. But I was in a rush, saved the file, wanted to test out my new fancy passwordless sudo by running &lt;code&gt;sudo echo test&lt;&#x2F;code&gt; and got greeted by a &lt;code&gt;alex is not in suderos file&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-journey-begins&quot;&gt;The Journey begins&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;try-1&quot;&gt;Try 1&lt;&#x2F;h3&gt;
+&lt;p&gt;I tried out the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;superuser.com&#x2F;a&#x2F;1368278&quot;&gt;here&lt;&#x2F;a&gt; described “Finder” solution but failed. I just couldn’t change the permission back. An hour later, I moved on to recovery mode.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;try-2-recovery-mode-my-savior&quot;&gt;Try 2 — Recovery Mode, my savior&lt;&#x2F;h3&gt;
+&lt;p&gt;So, I finally booted into recovery mode, and logged in. Then mounted the Data disk via the disk utility program.&lt;br &#x2F;&gt;
+Now I could open a terminal, navigate to &lt;code&gt;&#x2F;foo&#x2F;bar&#x2F;etc&lt;&#x2F;code&gt; and repair the file permission while also fixing the typo.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-i-ve-learned&quot;&gt;What I’ve learned&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;If visudo asks you if you really want to save the File, don’t blindly type yes!&lt;&#x2F;li&gt;
+&lt;li&gt;root is your friend&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;I would love to hear about your funny tech fails. Just send me an email.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SCP, my beloved</title>
+        <published>2024-01-06T00:00:00+00:00</published>
+        <updated>2025-01-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              confusedalex
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://confusedalex.dev/blog/scp-my-beloved/"/>
+        <id>https://confusedalex.dev/blog/scp-my-beloved/</id>
+        
+        <content type="html" xml:base="https://confusedalex.dev/blog/scp-my-beloved/">&lt;p&gt;Have you ever struggled to find the perfect tool for transferring files, which is easy to use and broadly available? If so, you are not alone, and I think I might have found the solution called “scp.”&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-is-scp&quot;&gt;What is SCP?&lt;&#x2F;h2&gt;
+&lt;p&gt;SCP is a program shipped with OpenSSH, allowing you to copy files between two hosts over a network. Since it’s shipped with OpenSSH, it should be available on most of your computers, making it convenient to use. For SCP to work, you need to point it to a running SSH server. Now let’s look at some examples of how to use SCP.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-to-use-scp&quot;&gt;How to use SCP:&lt;&#x2F;h2&gt;
+&lt;p&gt;Copying a local file to a remote host:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;scp localFile user@remotehost:path&#x2F;to&#x2F;target
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;And in reverse:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;scp user@remotehost:path&#x2F;to&#x2F;remotefile &#x2F;path&#x2F;to&#x2F;target
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;To transfer whole folders, just point to a directory and use the &lt;code&gt;-r&lt;&#x2F;code&gt; flag to let scp run recursive.&lt;&#x2F;p&gt;
+&lt;p&gt;In short, SCP simplifies file transfers with its straightforward approach. Next time you’re stuck, remember SCP—it’s a lifesaver.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

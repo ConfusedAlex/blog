@@ -1,0 +1,320 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Robin",
+      "photo": "https://webmention.io/avatar/cdn.masto.host/94943b1c4865d2ca158fae73e08f2c2ad25087898b83a6879dd6bd815571a192.jpg",
+      "url": "https://mastodon.social/@iamrobin"
+    },
+    "url": "https://indieweb.social/@confusedalex/113760369110698625#favorited-by-109548872229227035",
+    "published": null,
+    "wm-received": "2025-01-02T21:46:01Z",
+    "wm-id": 1871532,
+    "wm-source": "https://brid.gy/like/mastodon/@confusedalex@indieweb.social/113760369110698625/109548872229227035",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "like-of": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "CountMeOut_",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/41d69c857e1a0a6575fab1d0d94bacee3edd01569251a4441118770aa8a6d1b3.png",
+      "url": "https://reddit.com/user/CountMeOut_/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m52kw46/",
+    "published": "2025-01-02T21:10:15+00:00",
+    "wm-received": "2025-01-02T21:18:26Z",
+    "wm-id": 1871530,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m52kw46",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>I love your website in general! Is it difficult to create something like that without any coding knowledge?</p>",
+      "text": "I love your website in general! Is it difficult to create something like that without any coding knowledge?"
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "exosoul",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/11782038c7593a16ae9c42ddfbc18dce2c34834f0c3d49f3727d2c6c7b0eb8a3.png",
+      "url": "https://reddit.com/user/exosoul/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4ymf0f/",
+    "published": "2025-01-02T04:25:03+00:00",
+    "wm-received": "2025-01-02T19:21:49Z",
+    "wm-id": 1871524,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4ymf0f",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Nice site!</p>",
+      "text": "Nice site!"
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "glormond",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/a54dda8b9b25893db023a16badaef3bf0e1fdcb7330f580593738ea59be700b2.png",
+      "url": "https://reddit.com/user/glormond/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4zkdpf/",
+    "published": "2025-01-02T09:58:59+00:00",
+    "wm-received": "2025-01-02T19:21:48Z",
+    "wm-id": 1871523,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4zkdpf",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>It’s cool you made it regular for yourself. I also started journaling last year, but I eventually abandoned the idea after a few months. At some point I realized that there’s only a small chance I’d ever read any of that and thus my brain treated it like an unnecessary routine or something. I couldn’t manage to overcome this.</p>",
+      "text": "It’s cool you made it regular for yourself. I also started journaling last year, but I eventually abandoned the idea after a few months. At some point I realized that there’s only a small chance I’d ever read any of that and thus my brain treated it like an unnecessary routine or something. I couldn’t manage to overcome this."
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "madmanz123",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/23a80bb8e93720e085ee87dc8eab8c6ed49e0963d724d406da3362687726465b.png",
+      "url": "https://reddit.com/user/madmanz123/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4yhgaq/",
+    "published": "2025-01-02T03:48:21+00:00",
+    "wm-received": "2025-01-02T19:21:48Z",
+    "wm-id": 1871522,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4yhgaq",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Finding obsidian was my key to actually journaling, I've hit a year! Something about the way it stores my info locally but syncs, makes linking things together so easy and the general interface flexibility and templates made it work for me.</p>",
+      "text": "Finding obsidian was my key to actually journaling, I've hit a year! Something about the way it stores my info locally but syncs, makes linking things together so easy and the general interface flexibility and templates made it work for me."
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "TheInhumaneme",
+      "photo": "https://webmention.io/avatar/i.redd.it/9e56a4c66f7f573ad8f640b5cc43395a84ecba8a9f929b40724db608524d57d9.png",
+      "url": "https://reddit.com/user/TheInhumaneme/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4y9t1i/",
+    "published": "2025-01-02T02:55:37+00:00",
+    "wm-received": "2025-01-02T19:21:47Z",
+    "wm-id": 1871521,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4y9t1i",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Really nice!</p>",
+      "text": "Really nice!"
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "v15d",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/2889aed23a94a79c4df89196bee384abd87f74907ef06bee82ce66e1529afdc1.png",
+      "url": "https://reddit.com/user/v15d/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4xr37f/",
+    "published": "2025-01-02T00:57:59+00:00",
+    "wm-received": "2025-01-02T19:21:46Z",
+    "wm-id": 1871520,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4xr37f",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>What a great post, I think I'll try that too.</p>",
+      "text": "What a great post, I think I'll try that too."
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "sergykal",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/418fce3266827d4d0f489f81518e3c2b2ecf081e636278d791ee9f7206c43bff.jpg",
+      "url": "https://reddit.com/user/sergykal/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4xma3z/",
+    "published": "2025-01-02T00:29:40+00:00",
+    "wm-received": "2025-01-02T19:21:46Z",
+    "wm-id": 1871519,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4xma3z",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>I have gotten to the habit of doing this thanks to Obsidian.</p>",
+      "text": "I have gotten to the habit of doing this thanks to Obsidian."
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nicholamsious",
+      "photo": "https://webmention.io/avatar/www.redditstatic.com/93663ee9dcf899166de2f3cf9bb2e5e75fe02eb89124ed5e6009980491da953e.png",
+      "url": "https://reddit.com/user/Nicholamsious/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4wswzc/",
+    "published": "2025-01-01T21:44:09+00:00",
+    "wm-received": "2025-01-02T19:21:44Z",
+    "wm-id": 1871518,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4wswzc",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>I like it!</p>",
+      "text": "I like it!"
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Vasoo_Suryaa",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/4f5c3b5d2bfa003cee95015a02acfdf9a0af26a5a6f65fa550c51d13acd88e6a.jpg",
+      "url": "https://reddit.com/user/Vasoo_Suryaa/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4wrhul/",
+    "published": "2025-01-01T21:37:12+00:00",
+    "wm-received": "2025-01-02T19:21:44Z",
+    "wm-id": 1871517,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4wrhul",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Nice ????</p>",
+      "text": "Nice ????"
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Traditional-Wolf2969",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/0b52977d409d44c152c8e62357ffacb782e3dda1bec4ee753eae2a0abd5ff130.png",
+      "url": "https://reddit.com/user/Traditional-Wolf2969/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4wu4zc/",
+    "published": "2025-01-01T21:50:03+00:00",
+    "wm-received": "2025-01-02T19:21:41Z",
+    "wm-id": 1871516,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4wu4zc",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Your RSS feed is leading to a 404 error.</p>",
+      "text": "Your RSS feed is leading to a 404 error."
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Stijn",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/07d4fc70808f91dd36b4befa68cf923344218f6ca6131ebceb67911db04a3a1d.jpg",
+      "url": "https://reddit.com/user/Stijn/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4wq108/",
+    "published": "2025-01-01T21:29:37+00:00",
+    "wm-received": "2025-01-02T19:21:41Z",
+    "wm-id": 1871515,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4wq108",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Good job. Keep it up.</p>",
+      "text": "Good job. Keep it up."
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "memer_ga",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/65bb43661c0ffaed7c0a4bbe2ec40a17243aaba105f088978bc471cd4a93db33.png",
+      "url": "https://reddit.com/user/memer_ga/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4wol9n/",
+    "published": "2025-01-01T21:22:05+00:00",
+    "wm-received": "2025-01-02T19:21:36Z",
+    "wm-id": 1871514,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4wol9n",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Ok this is my signal to start journaling \n Thanks for sending a signal :)</p>",
+      "text": "Ok this is my signal to start journaling \n Thanks for sending a signal :)"
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "wigglebabo_1",
+      "photo": "https://webmention.io/avatar/styles.redditmedia.com/96d0b09b35e5b6da11ec076a1601354d837ad6d8d3c4cccf0774beac774c6bd7.png",
+      "url": "https://reddit.com/user/wigglebabo_1/"
+    },
+    "url": "https://reddit.com/r/ObsidianMD/comments/1hrclri/100_days_of_journaling/m4wy7eh/",
+    "published": "2025-01-01T22:11:38+00:00",
+    "wm-received": "2025-01-02T19:21:36Z",
+    "wm-id": 1871513,
+    "wm-source": "https://brid.gy/comment/reddit/mindless_pear4837/1hrclri/m4wy7eh",
+    "wm-target": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Good job, proud of you!</p>\n\n<p>I'm thinking of starting to journal myself after seeing this, feel free to leave some things you learned about journaling here, i'd love to read them!</p>",
+      "text": "Good job, proud of you!\n\nI'm thinking of starting to journal myself after seeing this, feel free to leave some things you learned about journaling here, i'd love to read them!"
+    },
+    "in-reply-to": "https://confusedalex.dev/blog/100-days-of-journaling/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]
